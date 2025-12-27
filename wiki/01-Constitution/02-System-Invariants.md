@@ -193,12 +193,93 @@ During onboarding:
 
 If onboarding bypasses safety, the system is broken.
 
+
+---
+
+## Invariant 13 — Delegated Automation Only
+
+Revono allows automation **only** through explicit delegation by a human.
+
+Automation is never inferred.
+Automation is never decided by AI.
+Automation is never implicit.
+
+All automated execution must originate from
+a clearly defined, human-approved delegation.
+
+---
+
+### Definition: Delegated Automation
+
+Delegated automation is execution that occurs without per-action confirmation
+**only because** a human has explicitly authorized a narrowly scoped rule in advance.
+
+Delegation is a form of consent — not autonomy.
+
+---
+
+### Conditions for Delegated Automation
+
+Delegated automation is permitted **only if all of the following are true**:
+
+1. **Explicit Enablement**  
+   A human has deliberately enabled the automation.
+   It is never enabled by default.
+
+2. **Narrow Scope**  
+   The delegation applies to a clearly defined class of actions  
+   (e.g. thresholds, limits, frequencies, specific entities).
+
+3. **Deterministic Execution**  
+   Execution logic is deterministic and predefined.  
+   AI is never involved in the execution path.
+
+4. **Previewed and Explainable**  
+   The delegation was previewed and explained at the time of enablement,
+   including its financial, inventory, and side-effect implications.
+
+5. **Auditable and Revocable**  
+   All delegated executions are audited,  
+   and the delegation can be paused or revoked at any time.
+
+If any condition is not met, automation is forbidden.
+
+---
+
+### AI and Delegated Automation
+
+AI (Reva) may:
+- Help define delegation rules
+- Explain what a rule will do
+- Simulate outcomes
+- Warn about risk
+
+AI (Reva) may **never**:
+- Decide when a delegation applies
+- Expand the scope of a delegation
+- Override delegation boundaries
+- Execute actions under delegation
+
+Delegated automation is enforced by the execution layer,
+not by AI reasoning.
+
+---
+
+### Enforcement Rule
+
+If an automated action occurs and a human cannot clearly say:
+
+> “I explicitly approved this exact behavior in advance”
+
+then the automation is invalid and the system is incorrect.
+
+
 ---
 
 ## Non-Negotiable Enforcement
 
 Any feature that:
-- Bypasses confirmation
+- Bypasses confirmation (Aside from Delegated automation)
 - Introduces implicit side effects
 - Allows AI execution
 - Hides financial or inventory impact
