@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/01-Constitution/01-Core-Principles.md",
+                "file": "wiki/03-Reva-AI/03-Risk-Detection-And-Authority-Limits.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Core-Principles"
+              "title": "03-Risk-Detection-And-Authority-Limits.md"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/01-Constitution/01-Core-Principles.md",
+                "file": "wiki/03-Reva-AI/03-Risk-Detection-And-Authority-Limits.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 01-Core-Principles"
+              "title": "Backlinks for 03-Risk-Detection-And-Authority-Limits.md"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/01-Constitution/01-Core-Principles.md",
+                "file": "wiki/03-Reva-AI/03-Risk-Detection-And-Authority-Limits.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 01-Core-Principles"
+              "title": "Outgoing links from 03-Risk-Detection-And-Authority-Limits.md"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/01-Constitution/01-Core-Principles.md",
+                "file": "wiki/03-Reva-AI/03-Risk-Detection-And-Authority-Limits.md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01-Core-Principles"
+              "title": "Outline of 03-Risk-Detection-And-Authority-Limits.md"
             }
           }
         ]
@@ -185,6 +185,18 @@
   },
   "active": "e77e82b4c03f5710",
   "lastOpenFiles": [
+    "wiki/04-Commerce-Model/Untitled.md",
+    "wiki/03-Reva-AI/03-Risk-Detection-And-Authority-Limits.md.md",
+    "wiki/03-Reva-AI/Untitled.canvas",
+    "wiki/03-Reva-AI/02-Reasoning-Pipeline.md",
+    "wiki/03-Reva-AI/01-Reva-Mental-Model.md",
+    "wiki/02-Architecture/03-Execution-Model.md",
+    "wiki/02-Architecture/02-Layer-Boundaries.md",
+    "wiki/02-Architecture/01-System-Overview.md",
+    "wiki/01-Constitution/04-Constitution-Change-Control.md",
+    "wiki/01-Constitution/03-What-Revono-Refuses-To-Do.md",
+    "wiki/01-Constitution/02-System-Invariants.md",
+    "wiki/01-Constitution/01-Core-Principles.md",
     "wiki/00-README.md"
   ]
 }
